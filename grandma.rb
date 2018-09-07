@@ -5,8 +5,14 @@
 # unless you shout it (type in all capitals).
 
 def speak_to_grandma(phrase)
-  if phrase != phrase.upcase
+  if phrase
+    
+  elsif phrase == phrase.upcase
     return 
+  else
+    return "HUH?! SPEAK UP, SONNY!"
+  end
+end
 
 # If you shout, she can hear you (or at least she thinks so) 
 # and yells back
